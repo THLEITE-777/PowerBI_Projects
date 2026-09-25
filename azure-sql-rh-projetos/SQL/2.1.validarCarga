@@ -1,0 +1,11 @@
+SELECT 'employee' AS Tabela, COUNT(*) AS Registros FROM employee
+UNION ALL
+SELECT 'departament', COUNT(*) FROM departament
+UNION ALL
+SELECT 'project', COUNT(*) FROM project
+UNION ALL
+SELECT 'works_on', COUNT(*) FROM works_on
+UNION ALL
+SELECT 'dependent', COUNT(*) FROM dependent
+UNION ALL
+SELECT 'dept_locations', COUNT(*) FROM dept_locations;
