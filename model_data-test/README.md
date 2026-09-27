@@ -3,6 +3,8 @@
 ## 📌 Visão Geral do Projeto
 Este repositório contém a documentação e os artefatos do projeto de Business Intelligence desenvolvido no Power BI. O objetivo principal deste projeto foi realizar o tratamento, limpeza e estruturação dos dados brutos, transformando-os em um modelo dimensional otimizado (Star Schema / Snowflake) para análises de negócios eficientes.
 
+O contexto de execução foi como parte do desafio do módulo 5 do bootcamp "Primeiros Passos com PowerBi" oferecido pela plataforma DIO.
+
 ---
 
 ## 🛠️ Processo de Transformação de Dados (ETL)
