@@ -1,0 +1,29 @@
+dCalendar = 
+ADDCOLUMNS (
+    CALENDAR ( DATE ( 2010, 1, 1 ), DATE ( 2026, 12, 31 ) ),
+    
+    -- Ano e Trimestre
+    "Year", YEAR ( [Date] ),
+    "Quarter", "Q" & FORMAT ( [Date], "q" ),
+    "YearQuarter", YEAR ( [Date] ) & "-Q" & FORMAT ( [Date], "q" ),
+    
+    -- Mês
+    "Month Num", MONTH ( [Date] ),
+    "Month Name", FORMAT ( [Date], "mmmm", "en-US" ),
+    "Month Short", FORMAT ( [Date], "mmm", "en-US" ),
+    "YearMonth", FORMAT ( [Date], "yyyy-mm" ),
+    "YearMonthSort", YEAR ( [Date] ) * 100 + MONTH ( [Date] ),
+    
+    -- Semana (Começando no Domingo)
+    "Week Number", WEEKNUM ( [Date], 1 ), -- 1 = Semana começa no domingo
+    
+    -- Dia e Dia da Semana
+    "Day", DAY ( [Date] ),
+    "Day of Week Num", WEEKDAY ( [Date], 1 ), -- 1 = Domingo, 2 = Segunda...
+    "Day of Week Name", FORMAT ( [Date], "dddd", "en-US" ),
+    "Day of Week Short", FORMAT ( [Date], "ddd", "en-US" ),
+    "Is Weekend", IF ( WEEKDAY ( [Date], 1 ) IN { 1, 7 }, "Weekend", "Weekday" ),
+    
+    -- Coluna Útil para Filtro de Período Atual
+    "Is Current Year", IF ( YEAR ( [Date] ) = YEAR ( TODAY () ), "Current Year", "Other" )
+)
