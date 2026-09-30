@@ -54,24 +54,6 @@ O modelo foi estruturado em esquema estrela contendo tabelas fato e dimensão:
 
 ---
 
-## 📸 Demonstração do Dashboard
-
-*(Dica: Substitua a imagem abaixo pela screenshot do seu relatório final no Power BI)*
-
-![Preview do Dashboard](https://via.placeholder.com/900x500.png?text=Preview+do+Dashboard+Gerencial+Power+BI)
-
----
-
-## 🚀 Como Visualizar o Dashboard
-
-1. Faça o download ou clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
-2. Abra o arquivo `.pbix` localizado na pasta raiz ou em `/dashboards` utilizando o **Power BI Desktop**.
-3. (Opcional) Se houver link público publicado no Power BI Web, acesse: [Link do Dashboard Interativo](#) *(Substitua com o link caso tenha publicado)*.
-
----
 
 ## 💡 Insights e Conclusões
 
@@ -84,7 +66,7 @@ A partir da análise dos visuais gerados, foi possível identificar:
 
 ## 👤 Autor
 
-Desenvolvido por **Seu Nome** durante os estudos no bootcamp da DIO.
+Desenvolvido por **Thiago Viana Leite** durante os estudos no bootcamp da DIO.
 
 - **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil)
-- **GitHub:** [@seu-usuario](https://github.com/seu-usuario)
+- **GitHub:** [@THLEITE-777](https://github.com/THLEITE-777)
